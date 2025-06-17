@@ -2,7 +2,7 @@
 
 Una aplicación de escritorio para Windows, creada con Flutter por **David Menéndez Acosta**, que te permite interactuar con la API de Gemini de Google. La aplicación cuenta con una interfaz nativa de Windows gracias al paquete `fluent_ui` y guarda el historial de conversaciones localmente usando la base de datos Isar.
 
-![Placeholder de la App](https://via.placeholder.com/800x600.png?text=Gemini+Windows+App)
+![Captura de pantalla de la aplicación](assets/images/placeholder.png)
 
 ---
 
