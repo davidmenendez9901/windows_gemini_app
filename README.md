@@ -42,7 +42,7 @@ Sigue estos pasos para configurar y ejecutar el proyecto en tu máquina local.
 
 1.  **Clona el repositorio:**
     ```sh
-    git clone https://URL_DEL_REPOSITORIO.git
+    git clone https://github.com/davidmenendez9901/windows_gemini_app.git
     cd NOMBRE_DEL_DIRECTORIO
     ```
 
