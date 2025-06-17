@@ -5,6 +5,7 @@ import '../core/database_service.dart';
 import '../core/gemini_service.dart';
 import '../model/chat.dart';
 import '../model/message.dart';
+import 'settings_view.dart';
 
 class HomeView extends StatefulWidget {
   final DatabaseService databaseService;
@@ -267,6 +268,18 @@ class _HomeViewState extends State<HomeView> {
                 body: _buildChatView(),
               );
             }).toList(),
+            footerItems: [
+              PaneItemAction(
+                icon: Icon(f_icons.FluentIcons.settings_24_regular),
+                title: const Text('Settings'),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    FluentPageRoute(builder: (context) => const SettingsView()),
+                  );
+                },
+              ),
+            ],
           ),
         );
       },
